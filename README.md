@@ -21,7 +21,11 @@ This project is a starting point for the Flutter Web application.
 This project was also based some existing projects, here are the links and credits for the originals:
 
 - [Create and Deploy a Flutter Web App. Written by Dane Mackier](https://www.filledstacks.com/post/create-and-deploy-a-flutter-web-app/)
+
 - [Building a Responsive Website using Flutter. Written by Dane Mackier](https://www.filledstacks.com/post/building-a-responsive-website-using-flutter/)
+
+- [Template Layouts and Navigation in Flutter Web. Written by Dane Mackier](https://www.filledstacks.com/post/template-layouts-and-navigation-in-flutter-web/)
+
 
 More links if this is your first Flutter project:
 

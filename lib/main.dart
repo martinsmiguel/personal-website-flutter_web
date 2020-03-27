@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:martinsmiguel/views/home/home_view.dart';
+import 'package:martinsmiguel/locator.dart';
+import 'package:martinsmiguel/views/layout/layout_template.dart';
 
-void main() => runApp(MyApp());
+void main() { 
+  setupLocator();
+  runApp(MyApp()); 
+}
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
@@ -15,7 +19,7 @@ class MyApp extends StatelessWidget {
           fontFamily: 'Open Sans'
         )
       ),
-      home: HomeView(),
+      home: LayoutTemplate(),
     );
   }
 }
